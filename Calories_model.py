@@ -23,10 +23,10 @@ dic = {"Migraine" : "Aim for increasing fruit and vegetable intake. Half your pl
        "Cancer" : "Eating a variety of fruits during and after cancer treatment can be beneficial. Bananas, strawberries, and apples are among some of the fruits that can help relieve symptoms",
        "COVID-19" : "Having a healthy immune system is important for COVID-19 recovery. You may consider complimenting COVID-19 treatments with foods that include vitamins A, C, and D, as well as carotenoids, zinc, and omega-3 fatty acids.",
        "Heart disease" : "Diet is an important part of managing coronary heart disease. Balancing your eating with fruits, vegetables, whole grains, lean protein, and healthy fats is key",
-       "None":"Eat everything"}
+       "none":"Eat everything"}
 
 #Input Fields
-dis = st.selectbox('Select a Disease :',["Migraine","Cancer","Diabetes","COVID-19","Heart disease","None"])
+dis = st.selectbox('Select a Disease :',["Migraine","Cancer","Diabetes","COVID-19","Heart disease","none"])
 
 
 
